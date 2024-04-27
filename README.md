@@ -58,3 +58,33 @@ Sometimes a situation may arise when you need to delete one of the sea voyages i
 
 ![image](https://github.com/Leeralim/BioDesktop/assets/49206103/69c9b218-a882-45e6-b803-fa86eab6edb2)
 
+## 📜 Data preload: 
+Before the final loading of data into the database, the user can first do a preliminary one to see what data will be loaded. 
+
+![image](https://github.com/Leeralim/BioDesktop/assets/49206103/ff0f874c-8936-4812-b39d-93b386d7a201)
+
+
+This module takes CSV files, compares the information in the database with information from the CSV and, based on their difference, generates a log with data that will be loaded into the database. If such a flight is already in the database, then the fields in the log will be empty.
+
+![image](https://github.com/Leeralim/BioDesktop/assets/49206103/dfa00fde-be97-4c38-a6a3-943ab291bb85)
+| _Log file with data that will be loaded into the database_
+
+## 🐘 Final loading into the database:
+It is carried out after all the data manipulations have been carried out and the preliminary loading has been viewed. The information is loaded into the database.
+
+![image](https://github.com/Leeralim/BioDesktop/assets/49206103/a91f7dc3-7228-4afd-900d-8834ce4021f4)
+
+## ✏️ Data correction:
+Sometimes scientists need to change and add new information to some entries in the database. For example, change the sea voyage attribute, add an operator. Change call sign and sea voyage number. Adjust the sample and adjust the age of the fish.
+
+![image](https://github.com/Leeralim/BioDesktop/assets/49206103/68b7fc10-66be-4218-bd75-b0c274991780)
+| _Correcting the sea voyage attribute and adjusting the call sign and sea voyage number_
+
+![image](https://github.com/Leeralim/BioDesktop/assets/49206103/3e76fe58-eef3-4f39-bd34-23755c99543b)
+| _Sample adjustment_
+
+![image](https://github.com/Leeralim/BioDesktop/assets/49206103/7c808580-d20e-43b9-b85a-37754090ed4a)
+| _Adjusting the age of the fish_
+
+
+
