@@ -86,5 +86,25 @@ Sometimes scientists need to change and add new information to some entries in t
 ![image](https://github.com/Leeralim/BioDesktop/assets/49206103/7c808580-d20e-43b9-b85a-37754090ed4a)
 | _Adjusting the age of the fish_
 
+The user enters parameters for sampling a specific flight (its call sign, number, trawl number, fish code, additional code of the fishing object, additional feature (age sample or field feeding analysis)). After entering the parameters, the user will be provided with a selection from the database with the ability to adjust the fields of age, length and number of rings.
 
+### 🎣 Work in a tiered base occurs in a similar way. There are differences in the data on call signs and flight numbers, as well as in the structures of some tables
 
+## <p><img src="https://github.com/hampusborgos/country-flags/blob/main/svg/no.svg" title="Norway_flag" alt="Norway" width="40" height="40"/>&nbsp; Working with the Norwegian base </p>
+
+In the process of exchanging data with scientists from Norway, we receive data in a certain format in the following form:
+
+![image](https://github.com/Leeralim/BioDesktop/assets/49206103/8396640f-8767-4b59-a028-0277eb8d2f57)
+
+This information needs to be converted into a more human-readable format. Such files are parsed and converted into several CSV files for subsequent loading into the database.
+Executed in this window:
+
+![image](https://github.com/Leeralim/BioDesktop/assets/49206103/3efd9721-0907-4e83-84a2-f58d2c4864e2)
+
+## ❌ Removal from the database
+Removal from the Norwegian database occurs with some differences. In the main and tier, deletion is carried out by call sign and sea voyage number. In this case, it is made according to the year of the voyage and the code of the fish. As a result of sampling based on these parameters, all flights that were made during the specified year and in which the specified fish appears will be deleted.
+
+![image](https://github.com/Leeralim/BioDesktop/assets/49206103/aa7c049b-8c2d-49fd-a2cf-7467e9453537)
+
+## 🐘 Final loading into the database: 
+Loading into the database occurs in the same way as into the main one.
